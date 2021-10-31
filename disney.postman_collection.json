@@ -1,0 +1,623 @@
+{
+	"id": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+	"name": "disney",
+	"description": "",
+	"order": [
+		"c3540f27-3d2a-663b-81c1-110f71ea72bc",
+		"d3d08e36-8503-2e96-18f4-c6f60b3061e7",
+		"a5a79fa3-58e2-f59d-c2ab-e3b4a114c64e",
+		"f5219584-2cb0-4b45-a57c-f68d7ecd3a19",
+		"4f5e1da3-b801-858f-58d0-5895f8b25149"
+	],
+	"folders": [
+		{
+			"name": "Movie",
+			"description": "",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"order": [
+				"61c7eb01-fd4c-d105-a4c0-d8fc07b7d41d",
+				"396cdb8f-868d-4356-93ed-6d7a5f6c6594",
+				"f5b727fe-a2d7-b38d-d7c4-17bbb1ae73d5",
+				"c566093b-4d29-5082-7961-4ec3e75b6edc",
+				"0c70b367-4afe-2ea3-2645-09dc8a182cbb"
+			],
+			"owner": "15142902",
+			"folders_order": [],
+			"id": "7dc58a05-8232-8d96-3f40-c99497a69d9d"
+		},
+		{
+			"name": "Personajes",
+			"description": "",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"order": [
+				"ffcce641-2819-66ac-a15c-d69520710dfe",
+				"1ed60194-7cfa-d3f1-f062-68cf975761ef",
+				"784433d3-866e-8cfa-75cb-2d57eadc4944",
+				"0064696d-991a-5a8d-5183-d273d96a2e22"
+			],
+			"owner": "15142902",
+			"folders_order": [],
+			"id": "ce901ca4-7500-b3ef-8c44-d37d4c2deeab"
+		}
+	],
+	"folders_order": [
+		"ce901ca4-7500-b3ef-8c44-d37d4c2deeab",
+		"7dc58a05-8232-8d96-3f40-c99497a69d9d"
+	],
+	"timestamp": 1635625849239,
+	"owner": "15142902",
+	"public": false,
+	"requests": [
+		{
+			"id": "0064696d-991a-5a8d-5183-d273d96a2e22",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjgyMDc1LCJleHAiOjE2MzU3MjUyNzV9.kjr7AJp4c9QJfRhMBSHSjpBtIyO7zY58rAyu-xhPK2kVC9YKjDMlCMu8cxDW8Osr-td9rLGpQ6qPl1H14wk5vA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjgyMDc1LCJleHAiOjE2MzU3MjUyNzV9.kjr7AJp4c9QJfRhMBSHSjpBtIyO7zY58rAyu-xhPK2kVC9YKjDMlCMu8cxDW8Osr-td9rLGpQ6qPl1H14wk5vA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/character/findCharacters?weight=3.2",
+			"queryParams": [
+				{
+					"key": "weight",
+					"value": "3.2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "findByWeight",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635684306060,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ce901ca4-7500-b3ef-8c44-d37d4c2deeab",
+			"rawModeData": "{\t\n\t\n\t\"username\": \"facu\",\n\t\"password\": \"patricio1057\"\n\t\n\t\n}"
+		},
+		{
+			"id": "0c70b367-4afe-2ea3-2645-09dc8a182cbb",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzIwNDYyLCJleHAiOjE2MzU3NjM2NjJ9.3I2OfmlEtancifYeBo-QKIxRAN1bkmao275EvF5cByi-zBedUTGbDKQJd3PDjIURLFewgl1S8yDTcpNXtMHq-Q\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzIwNDYyLCJleHAiOjE2MzU3NjM2NjJ9.3I2OfmlEtancifYeBo-QKIxRAN1bkmao275EvF5cByi-zBedUTGbDKQJd3PDjIURLFewgl1S8yDTcpNXtMHq-Q",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/findByGenre?idGenre=1",
+			"queryParams": [
+				{
+					"key": "idGenre",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "findByGenre",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635721615775,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7dc58a05-8232-8d96-3f40-c99497a69d9d",
+			"rawModeData": "{\r\n\t\r\n\t\"title\": \"Batman\",\r\n\t\"creation\": \"2020-09-09\",\r\n\t\"qualification\": 2,\r\n\t\"genre\": {\r\n\t\t\"id\": \"1\",\r\n\t\t\"name\": \"Terror\"\r\n\t},\r\n\t\"characters\": [{\r\n\t\t\"id\":\"jahdbs\",\r\n\t\t\"name\": \"Mickey\",\r\n        \"age\": 3,\r\n        \"weight\": 3.9,\r\n        \"history\": \"probando\"\r\n        \r\n\t\t\t}\r\n\t\t]\r\n\r\n}"
+		},
+		{
+			"id": "1ed60194-7cfa-d3f1-f062-68cf975761ef",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjgyMDc1LCJleHAiOjE2MzU3MjUyNzV9.kjr7AJp4c9QJfRhMBSHSjpBtIyO7zY58rAyu-xhPK2kVC9YKjDMlCMu8cxDW8Osr-td9rLGpQ6qPl1H14wk5vA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjgyMDc1LCJleHAiOjE2MzU3MjUyNzV9.kjr7AJp4c9QJfRhMBSHSjpBtIyO7zY58rAyu-xhPK2kVC9YKjDMlCMu8cxDW8Osr-td9rLGpQ6qPl1H14wk5vA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/character/findCharacters?age=4",
+			"queryParams": [
+				{
+					"key": "age",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "findByAge",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635684255395,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ce901ca4-7500-b3ef-8c44-d37d4c2deeab",
+			"rawModeData": "{\t\n\t\n\t\"username\": \"facu\",\n\t\"password\": \"patricio1057\"\n\t\n\t\n}"
+		},
+		{
+			"id": "396cdb8f-868d-4356-93ed-6d7a5f6c6594",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzA4NjY2LCJleHAiOjE2MzU3NTE4NjZ9.2bNz2_iLc-rhvjOAC0Yra2y3_V_usXL1-7YKaqBjc9vADY_eDI7s_rIBzzHRh95ArYtmRIRd4cwSeT-fXnlVbQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzA4NjY2LCJleHAiOjE2MzU3NTE4NjZ9.2bNz2_iLc-rhvjOAC0Yra2y3_V_usXL1-7YKaqBjc9vADY_eDI7s_rIBzzHRh95ArYtmRIRd4cwSeT-fXnlVbQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/detail",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "detail",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635708828593,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7dc58a05-8232-8d96-3f40-c99497a69d9d",
+			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"facu\",\r\n\t\"password\":\"patricio1057\"\r\n\r\n\t\r\n}"
+		},
+		{
+			"id": "4f5e1da3-b801-858f-58d0-5895f8b25149",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzA4NjY2LCJleHAiOjE2MzU3NTE4NjZ9.2bNz2_iLc-rhvjOAC0Yra2y3_V_usXL1-7YKaqBjc9vADY_eDI7s_rIBzzHRh95ArYtmRIRd4cwSeT-fXnlVbQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzA4NjY2LCJleHAiOjE2MzU3NTE4NjZ9.2bNz2_iLc-rhvjOAC0Yra2y3_V_usXL1-7YKaqBjc9vADY_eDI7s_rIBzzHRh95ArYtmRIRd4cwSeT-fXnlVbQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/send-text",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "prueba servicio de e-mail",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635714524972,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\t\r\n\r\n\t\t\t\r\n\t\t \r\n\t\t    \r\n\t\t\r\n\t\r\n"
+		},
+		{
+			"id": "61c7eb01-fd4c-d105-a4c0-d8fc07b7d41d",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg4MjQ4LCJleHAiOjE2MzU3MzE0NDh9.8ohLz_S9YAfd95TAs75hg6a6ISpR3B36mRnOtI790lNmhoYV4lssEOntZqECCs33-0iGPivL4siO-Ah_OAnWLQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg4MjQ4LCJleHAiOjE2MzU3MzE0NDh9.8ohLz_S9YAfd95TAs75hg6a6ISpR3B36mRnOtI790lNmhoYV4lssEOntZqECCs33-0iGPivL4siO-Ah_OAnWLQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/update",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/movie/update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635690949464,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7dc58a05-8232-8d96-3f40-c99497a69d9d",
+			"rawModeData": "{\r\n\t\"id\":\"402880917cd63837017cd68392aa0000\",\r\n\t\"title\": \"Avatar\",\r\n\t\"creation\": \"2020-01-01\",\r\n\t\"qualification\": 1,\r\n\t\"characters\": [{\r\n\t\t\"id\":\"5\",\r\n\t\t\"name\": \"pluto\",\r\n        \"age\": 4,\r\n        \"weight\": 3.1,\r\n        \"history\": \"prueba\"\r\n        \r\n\t\t\t}\r\n\t\t]\r\n\r\n}"
+		},
+		{
+			"id": "784433d3-866e-8cfa-75cb-2d57eadc4944",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjgyMDc1LCJleHAiOjE2MzU3MjUyNzV9.kjr7AJp4c9QJfRhMBSHSjpBtIyO7zY58rAyu-xhPK2kVC9YKjDMlCMu8cxDW8Osr-td9rLGpQ6qPl1H14wk5vA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjgyMDc1LCJleHAiOjE2MzU3MjUyNzV9.kjr7AJp4c9QJfRhMBSHSjpBtIyO7zY58rAyu-xhPK2kVC9YKjDMlCMu8cxDW8Osr-td9rLGpQ6qPl1H14wk5vA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/character/findCharacters?name=facu",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "facu",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "findByName",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635684279899,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ce901ca4-7500-b3ef-8c44-d37d4c2deeab",
+			"rawModeData": "{\t\n\t\n\t\"username\": \"facu\",\n\t\"password\": \"patricio1057\"\n\t\n\t\n}"
+		},
+		{
+			"id": "a5a79fa3-58e2-f59d-c2ab-e3b4a114c64e",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg4MjQ4LCJleHAiOjE2MzU3MzE0NDh9.8ohLz_S9YAfd95TAs75hg6a6ISpR3B36mRnOtI790lNmhoYV4lssEOntZqECCs33-0iGPivL4siO-Ah_OAnWLQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg4MjQ4LCJleHAiOjE2MzU3MzE0NDh9.8ohLz_S9YAfd95TAs75hg6a6ISpR3B36mRnOtI790lNmhoYV4lssEOntZqECCs33-0iGPivL4siO-Ah_OAnWLQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1635690777253,
+			"name": "http://localhost:8080/movie/update",
+			"description": "",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"id\":\"402880917cd63837017cd68392aa0000\",\r\n\t\"title\": \"Avatar\",\r\n\t\"creation\": \"2020-01-01\",\r\n\t\"qualification\": 1,\r\n\t\"characters\": [{\r\n\t\t\"id\":\"5\",\r\n\t\t\"name\": \"pluto\",\r\n        \"age\": 4,\r\n        \"weight\": 3.1,\r\n        \"history\": \"prueba\"\r\n        \r\n\t\t\t}\r\n\t\t]\r\n\r\n}"
+		},
+		{
+			"id": "c3540f27-3d2a-663b-81c1-110f71ea72bc",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzAzNjkzLCJleHAiOjE2MzU3NDY4OTN9.-gHOFkpf8ld1wfwEXvR5XlpNAak4D0ww2gGu3oR4hmRM_Btq2eT4tKStp36R3Nw-DiunJRjUKL_06Q_VFBpPSw\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzAzNjkzLCJleHAiOjE2MzU3NDY4OTN9.-gHOFkpf8ld1wfwEXvR5XlpNAak4D0ww2gGu3oR4hmRM_Btq2eT4tKStp36R3Nw-DiunJRjUKL_06Q_VFBpPSw",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1635721104868,
+			"name": "create",
+			"description": "",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "c3540f27-3d2a-663b-81c1-110f71ea72bc",
+			"rawModeData": "{\t\n      \"title\": \"hola\",\n      \"creation\": \"2021-04-04\",\n      \"qualification\":3 ,\n      \"genre\": {\n      \t\"name\":\"name\",\n      \t\"id\":\"1\"\n      },\n     \"characters\": [{\n\t \"name\":\"cualquier cosa\",\n\t \"age\":3,\n\t \"weight\":3.2,\n\t  \"history\":\"history\"\n     } ]\n\n   \n\n\t\n}"
+		},
+		{
+			"id": "c566093b-4d29-5082-7961-4ec3e75b6edc",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg4MjQ4LCJleHAiOjE2MzU3MzE0NDh9.8ohLz_S9YAfd95TAs75hg6a6ISpR3B36mRnOtI790lNmhoYV4lssEOntZqECCs33-0iGPivL4siO-Ah_OAnWLQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg4MjQ4LCJleHAiOjE2MzU3MzE0NDh9.8ohLz_S9YAfd95TAs75hg6a6ISpR3B36mRnOtI790lNmhoYV4lssEOntZqECCs33-0iGPivL4siO-Ah_OAnWLQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/findMovies?title=hola",
+			"queryParams": [
+				{
+					"key": "title",
+					"value": "hola",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "findByTitle",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635721574175,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7dc58a05-8232-8d96-3f40-c99497a69d9d",
+			"rawModeData": "{\r\n\t\r\n\t\"title\": \"Prueba\",\r\n\t\"creation\": \"2020-01-01\",\r\n\t\"qualification\": 1,\r\n\t\"characters\": [{\r\n\t\t\"id\":\"5\",\r\n\t\t\"name\": \"pluto\",\r\n        \"age\": 4,\r\n        \"weight\": 3.1,\r\n        \"history\": \"prueba\"\r\n        \r\n\t\t\t}\r\n\t\t]\r\n\r\n}"
+		},
+		{
+			"id": "d3d08e36-8503-2e96-18f4-c6f60b3061e7",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg3Nzc0LCJleHAiOjE2MzU3MzA5NzR9.jQLDe7FxZvCRvgHh77NV-rWD6hWwzF95ezdX30YUjPu5YXxXliQTLMzt7M2sLNi_gQ8WJ4zeQWreRM_IU50wtQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1Njg3Nzc0LCJleHAiOjE2MzU3MzA5NzR9.jQLDe7FxZvCRvgHh77NV-rWD6hWwzF95ezdX30YUjPu5YXxXliQTLMzt7M2sLNi_gQ8WJ4zeQWreRM_IU50wtQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/auth/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1635687794150,
+			"name": "login",
+			"description": "",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"responses": [],
+			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"facu\",\r\n\t\"password\":\"patricio1057\"\r\n}"
+		},
+		{
+			"id": "f5219584-2cb0-4b45-a57c-f68d7ecd3a19",
+			"headers": "Content-Type: application/json\n//Authorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:8080/auth/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635708654157,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"facu\",\r\n\t\"email\": \"facundorafanelli@gmail.com\",\r\n\t\"password\":\"patricio1057\"\r\n\r\n\t\r\n}"
+		},
+		{
+			"id": "f5b727fe-a2d7-b38d-d7c4-17bbb1ae73d5",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzIwNDYyLCJleHAiOjE2MzU3NjM2NjJ9.3I2OfmlEtancifYeBo-QKIxRAN1bkmao275EvF5cByi-zBedUTGbDKQJd3PDjIURLFewgl1S8yDTcpNXtMHq-Q\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NzIwNDYyLCJleHAiOjE2MzU3NjM2NjJ9.3I2OfmlEtancifYeBo-QKIxRAN1bkmao275EvF5cByi-zBedUTGbDKQJd3PDjIURLFewgl1S8yDTcpNXtMHq-Q",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/movie/findByGenre?idGenre=1",
+			"queryParams": [
+				{
+					"key": "idGenre",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/movie/findByGenre",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1635721397295,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7dc58a05-8232-8d96-3f40-c99497a69d9d",
+			"rawModeData": "{\r\n\t\r\n\t\"title\": \"Batman\",\r\n\t\"creation\": \"2020-09-09\",\r\n\t\"qualification\": 2,\r\n\t\"genre\": {\r\n\t\t\"id\": \"1\",\r\n\t\t\"name\": \"Terror\"\r\n\t},\r\n\t\"characters\": [{\r\n\t\t\"id\":\"jahdbs\",\r\n\t\t\"name\": \"Mickey\",\r\n        \"age\": 3,\r\n        \"weight\": 3.9,\r\n        \"history\": \"probando\"\r\n        \r\n\t\t\t}\r\n\t\t]\r\n\r\n}"
+		},
+		{
+			"id": "ffcce641-2819-66ac-a15c-d69520710dfe",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjIyMzMzLCJleHAiOjE2MzU2NjU1MzN9.k9muLOScdeq_EcCW050aR30HckNSAsrWTtp-M1Ox7Wz0lGyWWwQ7q8325cA3JfTsYSi2pM_tmCWGaIOCntulxw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmYWN1IiwiaWF0IjoxNjM1NjIyMzMzLCJleHAiOjE2MzU2NjU1MzN9.k9muLOScdeq_EcCW050aR30HckNSAsrWTtp-M1Ox7Wz0lGyWWwQ7q8325cA3JfTsYSi2pM_tmCWGaIOCntulxw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/character/detail",
+			"folder": "ce901ca4-7500-b3ef-8c44-d37d4c2deeab",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1635632428873,
+			"name": "detail",
+			"description": "",
+			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
+			"responses": [],
+			"rawModeData": "{\t\n\t\"id\": \"402880917cc7f9c5017cc842288c0002\",\n\t\"name\": \"facu\",\n\t \"age\": 4,\n\t \"weight\": 3.2,\n\t \"history\": \"probando upddate\" ,\n\t \"movies\": [\n    { \n      \"id\":\"\",\n      \"title\": \"hola\",\n      \"creation\": \"2021-04-04\",\n      \"qualification\": 3\n      \n    },\n    {\n      \"id\":\"\",\n      \"title\": \"Madame Uppercut\",\n      \"creation\": \"2020-02-01\",\n      \"quealification\": 2\n    }\n  ]\n\t\n}"
+		}
+	]
+}
