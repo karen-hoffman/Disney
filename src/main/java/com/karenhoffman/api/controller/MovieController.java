@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.karenhoffman.api.entity.DisneyCharacter;
 import com.karenhoffman.api.entity.Movie;
@@ -38,7 +39,7 @@ public class MovieController {
 	private MovieService movieService;
 
 	@PostMapping("/create")
-	public ResponseEntity<?> newMovie(@Valid @RequestBody Movie movie, BindingResult bindingResult)
+	public ResponseEntity<?> newMovie(@Valid @RequestBody Movie movie, @RequestParam MultipartFile file, BindingResult bindingResult)
 			throws Exception{
 
 		if (bindingResult.hasErrors()) {
@@ -57,7 +58,7 @@ public class MovieController {
 			}
 		}
 
-		movieService.createMovie(movie.getTitle(), movie.getCreation(), movie.getQualification(), movie.getCharacters(), movie.getImg(), movie.getGenre(), movie.getFile());
+		movieService.createMovie(movie.getTitle(), movie.getCreation(), movie.getQualification(), movie.getCharacters(), movie.getImg(), movie.getGenre(), file);
 
 		return new ResponseEntity<>("Pelicula o serie creada", HttpStatus.CREATED);
 	}

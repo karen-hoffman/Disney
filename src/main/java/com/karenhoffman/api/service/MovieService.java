@@ -52,7 +52,6 @@ public class MovieService {
 			movie.setGenre(genre);
 			
 			movie.setImg(imageService.save(file));
-			movie.setImg(image);
 
 			movieRepository.save(movie);
 

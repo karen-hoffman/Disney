@@ -26,7 +26,6 @@ public class Movie {
 	private String id;
 	@OneToOne
 	private Image img;
-	private MultipartFile file;
 	private String title;
 	@Temporal(TemporalType.DATE)
 	private Date creation;
@@ -53,17 +52,6 @@ public class Movie {
 	}
 
 	
-
-	public MultipartFile getFile() {
-		return file;
-	}
-
-
-
-	public void setFile(MultipartFile file) {
-		this.file = file;
-	}
-
 
 
 	public Genre getGenre() {
