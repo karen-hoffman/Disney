@@ -6,8 +6,8 @@
 		"c3540f27-3d2a-663b-81c1-110f71ea72bc",
 		"d3d08e36-8503-2e96-18f4-c6f60b3061e7",
 		"a5a79fa3-58e2-f59d-c2ab-e3b4a114c64e",
-		"f5219584-2cb0-4b45-a57c-f68d7ecd3a19",
-		"4f5e1da3-b801-858f-58d0-5895f8b25149"
+		"4f5e1da3-b801-858f-58d0-5895f8b25149",
+		"e8ae3ea2-da2e-8c70-8496-785e47bcd662"
 	],
 	"folders": [
 		{
@@ -501,7 +501,7 @@
 			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"facu\",\r\n\t\"password\":\"patricio1057\"\r\n}"
 		},
 		{
-			"id": "f5219584-2cb0-4b45-a57c-f68d7ecd3a19",
+			"id": "e8ae3ea2-da2e-8c70-8496-785e47bcd662",
 			"headers": "Content-Type: application/json\n//Authorization: \n",
 			"headerData": [
 				{
@@ -526,16 +526,16 @@
 			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
 			"data": [],
 			"dataMode": "raw",
-			"name": "register",
+			"name": "registerCorrection",
 			"description": "",
 			"descriptionFormat": "html",
-			"time": 1635708654157,
+			"time": 1635725342560,
 			"version": 2,
 			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"facu\",\r\n\t\"email\": \"facundorafanelli@gmail.com\",\r\n\t\"password\":\"patricio1057\"\r\n\r\n\t\r\n}"
+			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"karen\",\r\n\t\"email\": \"karenhoffman@gmail.com\",\r\n\t\"password\":\"123\"\r\n\r\n\t\r\n}"
 		},
 		{
 			"id": "f5b727fe-a2d7-b38d-d7c4-17bbb1ae73d5",
