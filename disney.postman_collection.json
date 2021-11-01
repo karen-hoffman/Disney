@@ -493,12 +493,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1635687794150,
+			"time": 1635740416958,
 			"name": "login",
 			"description": "",
 			"collectionId": "18763d86-1273-5e6f-0c5b-29e5fc1bfdea",
 			"responses": [],
-			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"facu\",\r\n\t\"password\":\"patricio1057\"\r\n}"
+			"rawModeData": "{\t\r\n\t\r\n\t\"username\":\"karen\",\r\n\t\"password\":\"123\"\r\n}"
 		},
 		{
 			"id": "e8ae3ea2-da2e-8c70-8496-785e47bcd662",
